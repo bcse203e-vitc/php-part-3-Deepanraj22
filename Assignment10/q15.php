@@ -1,5 +1,5 @@
 <?php
-// Q15: Feedback Form with Session and Email
+
 session_start();
 if(!isset($_SESSION['user'])) $_SESSION['user'] = 'Guest';
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
