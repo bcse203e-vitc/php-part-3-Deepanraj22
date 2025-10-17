@@ -1,5 +1,5 @@
 <?php
-// Q14: Simple Contact Form with mail()
+
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $to = 'example@domain.com';
     $sub = 'Contact Form Message';
