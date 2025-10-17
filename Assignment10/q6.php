@@ -1,5 +1,4 @@
 <?php
-// Q6: Create and Draw Graphics Dynamically (GD)
 $img = imagecreate(200,200);
 $bg = imagecolorallocate($img,255,255,255);
 $red = imagecolorallocate($img,255,0,0);
