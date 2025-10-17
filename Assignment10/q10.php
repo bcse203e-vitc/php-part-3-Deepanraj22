@@ -1,6 +1,5 @@
 <?php
-// Q10: Send an Email with mail() (basic example)
-// NOTE: mail() may not work on all systems without proper SMTP configuration.
+
 $to = 'receiver@example.com';
 $subject = 'Test Email';
 $message = 'This is a test email from PHP.';
