@@ -1,5 +1,5 @@
 <?php
-// Q13: Personalized Greeting Using Sessions
+
 session_start();
 if(!isset($_SESSION['name'])) $_SESSION['name'] = 'Student';
 ?>
