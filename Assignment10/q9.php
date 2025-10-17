@@ -1,5 +1,4 @@
 <?php
-// Q9: Color Palette Manipulation - random colored shapes
 $img = imagecreate(250,250);
 $bg = imagecolorallocate($img,255,255,255);
 for($i=0;$i<10;$i++){
