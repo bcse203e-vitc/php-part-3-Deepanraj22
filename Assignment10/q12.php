@@ -1,5 +1,5 @@
 <?php
-// Q12: Dynamic Image Banner with Text (timestamp)
+
 $img = imagecreate(400,60);
 $bg = imagecolorallocate($img,240,240,240);
 $black = imagecolorallocate($img,0,0,0);
