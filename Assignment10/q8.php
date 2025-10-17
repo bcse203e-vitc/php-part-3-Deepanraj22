@@ -1,5 +1,4 @@
 <?php
-// Q8: Image Resizing and Scaling
 $srcFile = __DIR__ . '/image.jpg';
 if(!file_exists($srcFile)){
     header('Content-Type: text/plain');
