@@ -1,5 +1,5 @@
 <?php
-// Q11: Generate Gradient Image
+
 $img = imagecreate(200,200);
 for($i=0;$i<200;$i++){
     $col = imagecolorallocate($img, $i, $i, 255);
